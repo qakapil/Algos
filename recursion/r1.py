@@ -63,3 +63,18 @@ def convtobase(n, base):
     if n < base: return str_[n]
     return (convtobase(n//base, base)) + str_[n%base]
 print convtobase(1433, 8)
+print "****************"
+
+def rev(l):
+    if len(l) == 0:
+        return
+    rev(l[1:])
+    res = []
+    num = l[0]
+    res.append(num)
+    return res
+
+
+
+l = [1,2,3]
+print rev(l)
