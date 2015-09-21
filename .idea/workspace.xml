@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b308e16-02cb-47fd-a978-585a03ca8ab6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5-Trees/BinaryTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5-Trees/ListofListsRepresentation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Algos.iml" afterPath="$PROJECT_DIR$/.idea/Algos.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoG/ReverseSentence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoG/PatternSearching.py" afterPath="$PROJECT_DIR$/GoG/PatternSearching.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algos.iws" />
@@ -30,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ListofListsRepresentation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter5-Trees/ListofListsRepresentation.py">
+      <file leaf-file-name="PatternSearching.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoG/PatternSearching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.4" vertical-offset="496" max-vertical-offset="1152">
-              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1314">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter5-Trees/BinaryTree.py">
+      <file leaf-file-name="ReverseSentence.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoG/ReverseSentence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.02970297" vertical-offset="0" max-vertical-offset="1008">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.089108914" vertical-offset="0" max-vertical-offset="606">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -62,6 +60,8 @@
         <option value="$PROJECT_DIR$/SimpleBalancedParanthesis.py" />
         <option value="$PROJECT_DIR$/chapter5-Trees/ListofListsRepresentation.py" />
         <option value="$PROJECT_DIR$/chapter5-Trees/BinaryTree.py" />
+        <option value="$PROJECT_DIR$/GoG/PatternSearching.py" />
+        <option value="$PROJECT_DIR$/GoG/ReverseSentence.py" />
       </list>
     </option>
   </component>
@@ -122,7 +122,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter5-Trees" />
+              <option name="myItemId" value="GoG" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -143,7 +143,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.BinaryTree">
+  <component name="RunManager" selected="Python.ReverseSentence">
     <configuration default="false" name="SimpleBalancedParanthesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,6 +195,46 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Algos" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter5-Trees/BinaryTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PatternSearching" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GoG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algos" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GoG/PatternSearching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReverseSentence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GoG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algos" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GoG/ReverseSentence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
@@ -344,17 +384,21 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.anagram" />
       <item index="1" class="java.lang.String" itemvalue="Python.SimpleBalancedParanthesis" />
       <item index="2" class="java.lang.String" itemvalue="Python.ListofListsRepresentation" />
       <item index="3" class="java.lang.String" itemvalue="Python.BinaryTree" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PatternSearching" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ReverseSentence" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.BinaryTree" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ListofListsRepresentation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SimpleBalancedParanthesis" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.ReverseSentence" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PatternSearching" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BinaryTree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ListofListsRepresentation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SimpleBalancedParanthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -419,8 +463,13 @@
           <url>file://$PROJECT_DIR$/chapter5-Trees/BinaryTree.py</url>
           <line>39</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/GoG/ReverseSentence.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -439,8 +488,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter5-Trees/BinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02970297" vertical-offset="0" max-vertical-offset="1008">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33217993" vertical-offset="420" max-vertical-offset="1008">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoG/TransformString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1028">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoG/PatternSearching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1314">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoG/ReverseSentence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.089108914" vertical-offset="0" max-vertical-offset="606">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
           <folding />
         </state>
       </provider>

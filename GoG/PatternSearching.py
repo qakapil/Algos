@@ -35,7 +35,34 @@ def solution(txt, pat):
             if stillok:
                 print "Pattern found at index %d" % (i)
 
-txt =  "AAAAAAAAAAAAAAAAAB"
-pat = "AAAAB"
+txt =  "ABAABBAABAB"
+pat = "AB"
 
 solution(txt, pat)
+
+
+
+
+
+
+def solution2(smallStr, bigStr):
+    m = len(smallStr)
+    n = len(bigStr)
+    res = 0
+    if m > n:
+      return -1
+
+    for i in range(0, (n-m)+1):
+       stillok = True
+       j = 0
+       while stillok and (j < m):
+           if smallStr[j] != bigStr[i]:
+             stillok = False
+           else:
+             i += 1
+             j += 1
+       if stillok:
+         res += 1
+
+    return res
+print solution2(pat, txt)
